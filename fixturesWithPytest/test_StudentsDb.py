@@ -5,7 +5,7 @@ from StudentDb import StudentDb
 @pytest.fixture(scope="module")
 def db():
     db = StudentDb()
-    db.connect('fixturesWithPytest/data.json')
+    db.connect("C:/Users/hoffm/OneDrive/Desktop/pytest/data.json")
     yield db # yield because -> so that db.close() gets called in the end and act
              # as a teardown method
     db.close()
