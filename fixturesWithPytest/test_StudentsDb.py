@@ -25,3 +25,4 @@ def test_mark_data():
     assert mark_data["id"] == 2
     assert mark_data["name"] == "Mark"
     assert mark_data["result"] == "fail"
+
